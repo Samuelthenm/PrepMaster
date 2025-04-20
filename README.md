@@ -1,79 +1,34 @@
-# PrepMaster
+🥗 PrepMaster
+A smart meal planning app that suggests recipes based on the ingredients you already have and provides nutritional information to help users plan healthy meals with ease.
 
-PrepMaster is a web-based interactive project (possibly a game or educational tool) built using HTML, CSS, and JavaScript. It is designed to run directly in modern web browsers.
+📌 Project Description
+PrepMaster is designed for busy individuals who want to eat healthier, save time, and simplify meal planning. By inputting the ingredients you already have, the app suggests recipes and displays key nutritional info — helping you make better choices without the extra research.
 
-## 🚀 Features
+👤 User Story
+As a busy person who wants to eat healthier and save time, I want a meal planning app that suggests recipes based on the ingredients I have and gives me nutritional info, so I can plan nutritious meals and make informed decisions without manually searching or calculating.
 
-- Responsive front-end
-- Engaging animations (`animations.js`)
-- Beautiful UI with image assets
-- No backend required
-
-## 🗂 Project Structure
-
-```
-PrepMaster/
-├── index.html          # Main HTML file
-├── style.css           # Styling
-├── Script.js           # Main JavaScript logic
-├── animations.js       # Animation handling
-├── images/             # Image assets
-├── package.json        # Node.js metadata (optional)
-└── README.md
-```
-
-## 🛠 Installation & Usage
-
-### Option 1: Run Locally (no dependencies)
-
-1. Download or clone the repo:
-   ```bash
-   git clone https://github.com/Samuelthenm/PrepMaster/PrepMaster.git
-   cd PrepMaster
-   ```
-
-2. Open `index.html` in your browser:
-   - You can double-click it, or
-   - Serve it via a simple Python HTTP server:
-
-   ```bash
-   python -m http.server
-   ```
-
-   Then open `http://localhost:8000` in your browser.
-
-### Option 2: Deploy Online
-
-You can deploy this project easily using:
-
-- **GitHub Pages**
-- **Netlify**
-- **Vercel**
-
-#### Deploy with GitHub Pages:
-
-1. Push the project to a GitHub repo.
-2. In repo settings → Pages → Set source to main branch → `/root`.
-3. Your site will be live at `https://yourusername.github.io/PrepMaster`.
-
-## 📦 Optional: Node.js Usage
-
-If you're planning to use Node.js features listed in `package.json`, install dependencies:
-
-```bash
-npm install
-```
-
-Then start a local dev server (e.g., using `lite-server` or `http-server`):
-
-```bash
-npx http-server
-```
-
-## 📄 License
-
-MIT License. Free to use and modify.
-
----
-
+✅ Acceptance Criteria
+🧺 Ingredient-Based Recipe Suggestions
+Enter ingredients on hand to get recipe suggestions.
+Prioritize recipes using the most matching ingredients.
+Add/remove ingredients to refine suggestions.
+🔬 Nutritional Information
+Show calories, protein, carbs, fats, and more per recipe.
+Display nutrition per serving and per recipe.
+📅 Meal Planning Features
+Add recipes to a weekly plan (by day + meal type).
+Auto-calculate daily nutritional totals.
+Adjust serving sizes or ingredients and update data live.
+🛒 Shopping List Generation
+Auto-generate shopping list based on planned meals.
+Adjust quantities and mark items as purchased.
+🧑‍⚕️ User Profile & Preferences
+Set dietary restrictions (vegetarian, low-carb, etc.).
+Save favorite recipes and track nutrition goals.
+🔌 APIs Used
+Spoonacular API — Fetch recipe data and nutrition info.
+Optional Video API — Show recipe walk-throughs with video support.
+💡 Future Enhancements
+Smart recommendations based on your past choices and dietary goals (e.g., weight loss, muscle gain).
+Feedback system to improve future suggestions.
 Made with ❤️ by [Luis Then]
