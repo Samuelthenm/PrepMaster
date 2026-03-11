@@ -41,13 +41,13 @@ As a busy person who wants to eat healthier and save time, I want a meal plannin
 - Save favorite recipes and track nutrition goals.
 
 
-## 🔌 APIs Used
+## APIs Used
 
 - **Spoonacular API** — Fetch recipe data and nutrition info.
 - **Optional Video API** — Show recipe walk-throughs with video support.
 
 
-## 💡 Future Enhancements
+## Future Enhancements
 
 - Smart recommendations based on your past choices and dietary goals (e.g., weight loss, muscle gain).
 - Feedback system to improve future suggestions.
